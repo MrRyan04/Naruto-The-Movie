@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap');
+
+* {margin: 0; background-color: rgb(140, 168, 193);}
+
+header{background-color: rgb(255, 255, 255);}
+
+#cabeca{ background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between 0;
+}
+
+#oi {background-color: rgba(93, 0, 255, 0);
+    width: 20%;
+    height: 150px;
+   
+}
+
+#logo {margin-top: 0px; margin-left: 11px;
+    width: 100px; height: 60px;
+    background-color: rgba(127, 255, 212, 0);
+}
+
+#aff{
+    background-color: rgba(250, 235, 215, 0); width: 100%; height: 90px; display: flex; flex-direction: column;
+}
+
+#data {width: 70%; font-size: 25px; text-align: center; margin-left: 18px; margin-top: 0px;
+    height: 28px;
+    font-family: 'Bungee Spice', sans-serif;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: rgb(240, 255, 255);
+    }
+
+#data2{
+    width: 70%; font-size: 25px; text-align: center; margin-left: 18px;
+    height: 28px;
+    font-family: 'Bungee Spice', sans-serif;
+  background-color: rgba(127, 255, 212, 0);
+    margin-top: 0;
+}
+
+#click { width: 80px; height: 30px; background-color: rgba(0, 255, 255, 0); margin-top: 20px; 
+  margin-left: 20px;
+  font-family: 'Bungee Spice', sans-serif; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+#click:hover{
+ font-size: 17px;}
+
+#corpo {display: flex; justify-content: center;
+    width:100%; height:400px; background-color: rgba(240, 248, 255, 0); margin-top: 6px;
+}
+
+.lado{
+    width: 50%; height:400px ; background-color: rgba(0, 0, 0, 0); 
+}
+
+.lado1{
+    width: 50%; height:400px ; background-color: rgba(165, 42, 42, 0);
+}
+
+#blue {width: 100%; height: 300px; display: flex; justify-content: center;}
+
+#foto1 {width: 80%; height: auto;}
+
+#orange {
+    width: 100%; height: 300px; display: flex; justify-content: center; background-color: rgba(255, 153, 29, 0);
+}
+
+#legenda1{ background-color: rgba(128, 255, 0, 0); 
+width: 100%; height: 95px; display: flex; justify-content: center;
+}
+
+#legenda1-1{
+    width: 80%; height: 100%; background-color: rgba(0, 0, 255, 0);
+    font-family: 'Kania0', sans-serif;
+    font-size: 20px; color: rgb(255, 255, 0);
+}
+
+#legenda2{margin-left: 100px;
+    width: 80%; height: 95px; background-color: rgba(0, 0, 255, 0);
+    font-family: 'Kania0', sans-serif;
+    font-size: 20px; color: rgb(255, 255, 0);
+}
+
+#corpo2 {display: flex; justify-content: center;
+    width: 100%; height: 326px; background-color: rgba(137, 43, 226, 0);
+}
+
+#lado3{
+    width: 50%; height: 300px; background-color: rgba(158, 253, 147, 0);
+}
+
+#pink {width: 100%; height: 300px; display: flex; justify-content: center; background-color: rgba(127, 255, 212, 0);}
+
+#legenda3 {width: 60%; height: 20px; background-color: rgba(0, 0, 255, 0); margin-top: 5px; margin-left: 150px;
+    font-family: 'Kania0', sans-serif;
+     font-size: 20px; color: rgb(255, 255, 0);
+}
+
+
+#lado4{
+    width: 50%; height: 326px; background-color: rgba(255, 255, 255, 0);
+}
+
+#white {
+    width: 100%; height: 300px; background-color: rgba(146, 170, 36, 0);
+    display: flex;
+    justify-content: center;
+}
+
+#legenda4 {width: 38%; height: 20px; background-color: rgba(0, 0, 255, 0); margin-top: 5px; margin-left: 270px;
+    font-family: 'Kania0', sans-serif;
+     font-size: 20px; color: rgb(255, 255, 0);
+}
+
+#li1 {
+    color: rgb(233, 228, 82);
+    font-family: "Hide", sans-serif;
+} 
+
+footer{ background-color: rgba(132, 161, 174, 0);
+    height: 150px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.lil{margin-top: 10px;  margin-left: 0px;
+    color: #fff;
+    font-family: 'Bitter', sans-serif;
+    background-color: rgba(0, 255, 255, 0);
+}
+
+#logo2 {background-color: rgba(127, 255, 212, 0);
+    margin-left: 10px;
+    width: 200px;
+    height: auto;
+}
+
+   #mobile {display:none;}
+    #pc {display:block;}
+   @media (max-width: 700px) {
+ #pc {display:none;}
+#mobile {display:block;}
+footer {display:none;}
+
+#hmobile {width: 100%; background-color: rgba(250, 235, 215, 0);}
+
+#bannermobile {width: 100%;}
+
+#principal {margin-top: 0%;
+}
+   
+
+#mobile1 {display:flex;
+flex-direction: column;
+margin-top: 0;
+}
+
+#p1 { color: rgb(8, 8, 8);
+    font-family: "Hide", sans-serif;}
+
+
+ #mobile2 {display:flex;
+        flex-direction: column;
+        margin-top: 0;
+        }
+
+#dot {width: 100%;
+display:flex;
+flex-direction: column;
+align-items: center;}
+
+#footermobile {display: block;
+}
+
+   }
+
+   #footermobile {margin-top: 50px; height: 230px;}
+
+#cem {font-family: 'Bungee Spice', sans-serif; display: grid; gap: 5px; background-color: rgba(233, 217, 196, 0);}
+
+#logomobile {width: 200px; height: 100px; margin-left: 15px; background-color: rgba(250, 235, 215, 0);}
+#a {background-color: rgba(240, 248, 255, 0);}
+

@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+* {caret-color: transparent;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    background-color: rgb(39, 63, 12);
+}
+
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav{
+    width: 60%;
+}
+
+ul{ 
+    display: flex;
+    width: 100%;
+    justify-content: space-between ;
+
+}
+
+li{ margin-left: 80px; margin-right: 50px;
+    list-style: none;
+    color:aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+   font-family: 'Bungee Spice', sans-serif;
+   background-color:rgba(9, 48, 18, 0)
+}
+
+li:hover {font-size: px;
+    color: black;background-color:rgb(1, 23, 2) 
+}
+
+#logo { margin-left: 10px; background-color: rgba(250, 235, 215, 0);
+    width: 15%;
+    height: auto;
+}
+
+#banner{margin-top: 4px;
+    background-image: url("https://i0.wp.com/hitsite.com.br/wp-content/uploads/2023/06/Naruto-live-action-Reproducao-Animes-Ola-Nerd.jpg?fit=1200%2C675&ssl=1");
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+#conteudotrailer {
+height: 400px;
+display: flex;
+justify-self: center;
+}
+
+#conteudo { margin-left: 300px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#trailer {top: 10px;
+    width: 500px;
+}
+
+#sinopse {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.descricao{ 
+    color: #fff;
+    font-size: 19px;
+    font-family: 'Bitter';
+    width: 100%;
+     /* antes estava 70% */
+
+}
+
+.button {
+    width: 200px;
+    height: 60px;
+    background-color:rgb(1, 23, 2) ;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.atorescont {
+    width: 100%;
+    display:flex;
+    justify-content: center; 
+    margin-top: 50px;
+}
+
+.atoresaqui{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+/* focar estudar nisso */
+.card {font-weight: bold; text-shadow: rgb(0, 0, 0);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #e08113;
+    font-size: 17px;
+    font-family: 'Bitter' , sans-serif;
+
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.ban1{
+    background-image: url('https://trendingpics.com/app/images/download.php?key=y0zLmAwA');
+}
+
+.ban2{
+    background-image: url('https://i.pinimg.com/564x/2d/34/a6/2d34a62e7725b51127cbd019050a2cf0.jpg');
+}
+
+.ban3{
+    background-image: url('https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/1023825_v9_aa.jpg');
+}
+
+.sakura{width: 244px; background-color: rgb(122, 153, 143); font-family: 'Bitter';}
+
+footer{
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.lil{margin-top: 10px;  margin-left: 0px;
+    color: #fff;
+    font-family: 'Bitter', sans-serif;
+}
+
+#logo2 {
+    margin-left: 10px;
+    width: 200px;
+    height: auto;
+}
+
+footer {margin-top: 10px;
+    height: 50px; background-color: #e0801300;
+}
+.navfooter {
+    display: none;
+}
+
+.footerlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px){
+    .navfooter{ margin-left: 10px; display: block;}
+
+#logo {margin-left: 8px;
+    width: 60%;
+    height: 80px;
+    margin-left: 40px;
+}
+
+nav {
+    display: none;
+} 
+
+#banner {width: 100%;}
+
+#conteudotrailer {margin-left: 10px;
+width: 100%; height: 400px;
+display: flex;
+flex-direction: column;}
+
+#conteudo { margin-left: 0; margin-top: 15px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+#trailer {margin: 0; margin-left: 41;
+    width: 100%;
+}
+
+#sinopse {margin-left: 8px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.descricao { margin-top: 10px;
+    width: 100%;
+}
+
+.button { 
+    width: 100%;
+    margin-top: 30px;
+}
+.atoresaqui{
+    grid-template-columns: 1fr;
+    margin-top: 50px;
+}
+.pronav{margin-left: 58px; margin-top: 1px; background-color: rgba(0, 255, 255, 0);}
+}
