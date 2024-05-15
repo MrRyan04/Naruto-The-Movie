@@ -1,1 +1,1 @@
-Esse foi meu primeiro projeto prático que criei com os conhecimentos de HTML5 e Css3 adquiridos até então.
+Como minha primeira vez usando HTML e Css, criei um site imaginando como seria a divulgação de um filme Live-Action do mangá Naruto.
